@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('/magazine', 'MagazineController')
+     ->except([
+         'show',
+         'edit',
+         'update',
+     ]);

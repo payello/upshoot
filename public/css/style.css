@@ -1,0 +1,13 @@
+.card-top {
+    border-bottom: solid 3px black;
+    background: #1d68a7;
+}
+
+.card {
+    margin: 0.5em 10px;
+    padding: 5px;
+}
+
+.container {
+    margin-top: 1em;
+}
